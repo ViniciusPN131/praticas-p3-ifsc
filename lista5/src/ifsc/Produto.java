@@ -2,11 +2,11 @@ package ifsc;
 
 public class Produto {
 	
-	String nome;
-	Long codBarras;
+	private String nome;
+	private Long codBarras;
 	
-	Double preco;
-	String fornecedor;
+	private Double preco;
+	private String fornecedor;
 	
 	public Double getPreco() {
 		return preco;
